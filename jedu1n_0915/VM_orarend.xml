@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+	
+	<!-- Hétfő -->
+	<ora id="1" típus="EA">
+		<targy>Szoftvertechnológia</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>8:00</tol>
+			<ig>12:00</ig>
+		</idopont>
+		<helyszin>103</helyszin>
+		<oktató>Tompa Tamás</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<ora id="2" típus="EA">
+		<targy>Mesterséges Intelligencia</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>12:00</tol>
+			<ig>15:00</ig>
+		</idopont>
+		<helyszin>XXX</helyszin>
+		<oktató>Dudás László</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<ora id="3" típus="EA">
+		<targy>Webtechnológiák</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>15:00</tol>
+			<ig>17:00</ig>
+		</idopont>
+		<helyszin>103</helyszin>
+		<oktató>Agárdi Anita</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<ora id="3" típus="GY">
+		<targy>Webtechnológiák</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>17:00</tol>
+			<ig>19:00</ig>
+		</idopont>
+		<helyszin>16</helyszin>
+		<oktató>Sátán Ádám</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<!-- Kedd -->
+	<ora id="4" típus="EA">
+		<targy>Webes Alkalmazások</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>10:00</tol>
+			<ig>12:00</ig>
+		</idopont>
+		<helyszin>103</helyszin>
+		<oktató>Bednarik László</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<ora id="5" típus="EA">
+		<targy>XML</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>12:00</tol>
+			<ig>14:00</ig>
+		</idopont>
+		<helyszin>37</helyszin>
+		<oktató>Bednarik László</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<ora id="6" típus="GY">
+		<targy>XML</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>14:00</tol>
+			<ig>16:00</ig>
+		</idopont>
+		<helyszin>101</helyszin>
+		<oktató>Bednarik László</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<!-- Szerda -->
+	<ora id="7" típus="GY">
+		<targy>Mesterséges Intelligencia</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>11:00</tol>
+			<ig>12:00</ig>
+		</idopont>
+		<helyszin>16</helyszin>
+		<oktató>Dudás László</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<ora id="8" típus="EA">
+		<targy>Integrált Vállalati Rendszerek</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>12:00</tol>
+			<ig>14:00</ig>
+		</idopont>
+		<helyszin>319</helyszin>
+		<oktató>Samad Dadvanipour</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<ora id="9" típus="GY">
+		<targy>Integrált Vállalati Rendszerek</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>14:00</tol>
+			<ig>16:00</ig>
+		</idopont>
+		<helyszin>16</helyszin>
+		<oktató>Bikfalvi Péter</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+	<!-- Csütörtök -->
+	<ora id="10" típus="GY">
+		<targy>Webes Alkalmazások</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>10:00</tol>
+			<ig>12:00</ig>
+		</idopont>
+		<helyszin>16</helyszin>
+		<oktató>Bednarik László</oktató>
+		<szak>Mérnökinformatikus</szak>
+	</ora>
+	
+</orarend>

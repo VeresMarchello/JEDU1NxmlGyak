@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<iskola>
+    <tanar kod="1">
+        <nev>Kiss Pista</nev>
+        <szak>Erőszak</szak>
+    </tanar>
+    <tanar kod="2">
+        <nev>Nagy Béla</nev>
+        <szak>Bölcsész</szak>
+    </tanar>
+
+    <tantargy kod="1" oktato="1">
+        <nev>Brumologia</nev>
+        <osztaly>3.b</osztaly>
+    </tantargy>
+</iskola>

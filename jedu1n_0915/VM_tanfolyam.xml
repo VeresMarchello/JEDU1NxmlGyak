@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+	<cím>XML</cím>
+
+	<hallgatók>
+		<hallgató>
+			<név>VM</név>
+			<lakcím>3333,Kukutyin Fő utca 3</lakcím>
+		</hallgató>
+	</hallgatók>
+
+	<helyszín>Miskolc</helyszín>
+
+	<előadó>
+		<név>BL</név>
+		<adószám>12345678</adószám>
+		<lakcím>1234,ASD Ó utca 12</lakcím>
+	</előadó>
+	
+	<dátum>2020-09-15</dátum>
+
+</konferencia>
