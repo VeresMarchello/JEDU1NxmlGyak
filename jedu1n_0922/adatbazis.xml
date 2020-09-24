@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE adatbazis
-[
+<!DOCTYPE adatbazis [
   <!ELEMENT adatbazis (dolgozo)>
-
   <!ELEMENT dolgozo (nev, fizetes)>
-  <!ATTLIST dolgozo kod ID #REQUIRED>
+  <!ATTLIST dolgozo kod ID CDATA #REQUIRED>
   <!ELEMENT nev (#PCDATA)>
   <!ELEMENT fizetes (#PCDATA)>
 ]>
