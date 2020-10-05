@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<orarend>
-	
+<orarend xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com ../jedu1n_0929/VM_orarend.xsd">
+
+	<ora id="1" típus="EA">
+		<targy>AAD</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol></tol>
+			<ig></ig>
+		</idopont>
+		<helyszin>as</helyszin>
+		<oktató></oktató>
+		<szak></szak>
+	</ora>
+
 	<!-- Hétfő -->
 	<ora id="1" típus="EA">
 		<targy>Szoftvertechnológia</targy>
@@ -14,7 +26,7 @@
 		<oktató>Tompa Tamás</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<ora id="2" típus="EA">
 		<targy>Mesterséges Intelligencia</targy>
 		<idopont>
@@ -26,7 +38,7 @@
 		<oktató>Dudás László</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<ora id="3" típus="EA">
 		<targy>Webtechnológiák</targy>
 		<idopont>
@@ -38,7 +50,7 @@
 		<oktató>Agárdi Anita</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<ora id="4" típus="GY">
 		<targy>Webtechnológiák</targy>
 		<idopont>
@@ -50,7 +62,7 @@
 		<oktató>Sátán Ádám</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<!-- Kedd -->
 	<ora id="5" típus="EA">
 		<targy>Webes Alkalmazások</targy>
@@ -63,7 +75,7 @@
 		<oktató>Bednarik László</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<ora id="6" típus="EA">
 		<targy>XML</targy>
 		<idopont>
@@ -75,7 +87,7 @@
 		<oktató>Bednarik László</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<ora id="7" típus="GY">
 		<targy>XML</targy>
 		<idopont>
@@ -87,7 +99,7 @@
 		<oktató>Bednarik László</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<!-- Szerda -->
 	<ora id="8" típus="GY">
 		<targy>Mesterséges Intelligencia</targy>
@@ -100,7 +112,7 @@
 		<oktató>Dudás László</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<ora id="9" típus="EA">
 		<targy>Integrált Vállalati Rendszerek</targy>
 		<idopont>
@@ -112,7 +124,7 @@
 		<oktató>Samad Dadvanipour</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<ora id="10" típus="GY">
 		<targy>Integrált Vállalati Rendszerek</targy>
 		<idopont>
@@ -124,7 +136,7 @@
 		<oktató>Bikfalvi Péter</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 	<!-- Csütörtök -->
 	<ora id="11" típus="GY">
 		<targy>Webes Alkalmazások</targy>
@@ -137,5 +149,5 @@
 		<oktató>Bednarik László</oktató>
 		<szak>Mérnökinformatikus</szak>
 	</ora>
-	
+
 </orarend>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<note>
+<note xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://www.w3schools.com ../jedu1n_0929/VM_note.xsd">
 	<to>Péter</to>
 	<from>Jani</from>
 	<heading>Emlékeztető</heading>
