@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com VM_nevjegykartya.xsd">
+    <nevjegykartya id="1">
+        <nev>Kiss Pista</nev>
+        <ceg>
+            <cim>
+                <iranyitoszam>3599</iranyitoszam>
+                <varos>Kukutyin</varos>
+                <utca>Eszperente</utca>
+                <hazszam>666</hazszam>
+            </cim>
+            <nev>Vazs KFT.</nev>
+            <telefonszam korzet="99">444444</telefonszam>
+            <weblap>https://vazs.hu</weblap>
+        </ceg>
+        <beosztas>R1-es munkatárs</beosztas>
+        <telefonszam korzet="97">333333</telefonszam>
+        <email>kp@vazs.hu</email>
+    </nevjegykartya>
+
+    <nevjegykartya id="2">
+        <nev>Nagy Sándor</nev>
+        <ceg>
+            <cim>
+                <iranyitoszam>6666</iranyitoszam>
+                <varos>Üveghegy</varos>
+                <utca>Ladik</utca>
+                <hazszam>3</hazszam>
+            </cim>
+            <nev>Hódítók BT.</nev>
+            <telefonszam korzet="66">765492</telefonszam>
+            <weblap>https://hoditok.hu</weblap>
+        </ceg>
+        <beosztas>Humánerőforrás-létszám leépítési ügyintéző(bérgyilkos)</beosztas>
+        <telefonszam korzet="23">123456</telefonszam>
+        <email>snsv@macedon.hu</email>
+    </nevjegykartya>
+</nevjegykartyak>
