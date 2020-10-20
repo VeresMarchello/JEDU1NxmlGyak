@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:include schemaLocation="VM_kutyavilag1.xsd"></xs:include>    
+
+<xs:element name="konyv" type="konyvType" />
+
+    <xs:complexType name="konyvType">
+        <xs:sequence>
+            <xs:element name="cim" type="xs:string" />
+            <xs:element name="szerzo" type="xs:string" />
+            <xs:element name="szereplo" minOccurs="1" maxOccurs="unbounded" type="szereploType"/>
+        </xs:sequence>
+        <xs:attribute name="isbn" type="xs:string" />
+    </xs:complexType>
+
+    <xs:complexType name="szereploType">
+        <xs:sequence>
+            <xs:element name="nev" type="xs:string" />
+            <xs:element name="baratja" type="xs:string" />
+            <xs:element name="szuletett" type="xs:date" />
+            <xs:element name="jellemzes" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

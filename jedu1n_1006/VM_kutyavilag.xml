@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyv xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com VM_kutyavilag.xsd">
+    <cim>Kutyavilag</cim>
+    <szerzo>Charles M. Schulz</szerzo>
+    <szereplo>
+        <nev></nev>
+        <baratja></baratja>
+        <szuletett></szuletett>
+        <jellemzes></jellemzes>
+    </szereplo>
+    <szereplo>
+        <nev></nev>
+        <baratja></baratja>
+        <szuletett></szuletett>
+        <jellemzes></jellemzes>
+    </szereplo>
+</konyv>

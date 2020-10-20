@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fo xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com VM_ERtoXSD.xsd">
+    <A a1="1">
+        <B>b</B>
+        <C>c</C>
+    </A>
+    <B b1="2">b</B>
+    <C c1="3">c</C>
+    <AC ac1="1"></AC>
+</fo>
