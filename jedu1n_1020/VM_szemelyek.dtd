@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT szemelyek (szemely)>
+
+    <!ELEMENT szemely (nev, kor?, varos)>
+
+        <!ATTLIST szemely id ID CDATA #REQUIRED>
+        
+        <!ELEMENT element-name (#PCDATA)>
+        <!ELEMENT element-name (#PCDATA)>
+        <!ELEMENT element-name (#PCDATA)>
