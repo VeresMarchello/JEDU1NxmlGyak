@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><konyvtar xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" azonosito="1" xsi:schemaLocation="https://www.w3schools.com VM_XMLSchema.xsd">
+    <nev>Rakoczi Megyei Konyvtar</nev>
+    <cim>3500 Miskolc, Gorgey Artur 765</cim>
+
+    <kolcsonzo azonosito="1">
+        <nev>Kiss Pista</nev>
+        <cim>2345 Kukutyin, Arany utca 56</cim>
+        <kolcsonzes_kezdete>2019-07-07</kolcsonzes_kezdete>
+        <kolcsonzes_vege>2020-03-03</kolcsonzes_vege>
+    </kolcsonzo>
+
+    <konyv isbn="0123456789">
+        <cim>Egri Csillagok</cim>
+        <ar>2300</ar>
+        <oldalszam>300</oldalszam>
+
+        <kiado>
+            <nev>LegjobbKiado</nev>
+            <cim>4560 Balaton, Fo utca 23</cim>
+            <weboldal>www.legjobbkiado.hu</weboldal>
+            <kiadas>1976-01-06</kiadas>
+        </kiado>
+
+        <szerzo azonosito="1">
+            <nev>Gardonyi Geza</nev>
+            <szerzodes>LegjobbKiado</szerzodes>
+        </szerzo>
+    </konyv>
+
+</konyvtar>

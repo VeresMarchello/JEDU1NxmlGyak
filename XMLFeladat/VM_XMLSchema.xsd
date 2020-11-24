@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.w3schools.com" xmlns="https://www.w3schools.com" elementFormDefault="qualified">
+    <xs:element name="konyvtar">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nev" minOccurs="0" maxOccurs="1" type="xs:string" />
+                <xs:element name="cim" minOccurs="0" maxOccurs="1" type="xs:string" />
+                
+                <xs:element name="kolcsonzo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nev" minOccurs="0" maxOccurs="1" type="xs:string" />
+                            <xs:element name="cim" minOccurs="0" maxOccurs="1" type="xs:string" />
+                            <xs:element name="kolcsonzes_kezdete" minOccurs="0" maxOccurs="1" type="xs:date" />
+                            <xs:element name="kolcsonzes_vege" minOccurs="0" maxOccurs="1" type="xs:date" />
+                        </xs:sequence>
+                        <xs:attribute name="azonosito" type="xs:int" />
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="konyv">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cim" minOccurs="0" maxOccurs="1" type="xs:string" />
+                            <xs:element name="ar" minOccurs="0" maxOccurs="1" type="xs:int" />
+                            <xs:element name="oldalszam" minOccurs="0" maxOccurs="1" type="xs:int" />
+
+                            <xs:element name="kiado">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nev" minOccurs="0" maxOccurs="1" type="xs:string" />
+                                        <xs:element name="cim" minOccurs="0" maxOccurs="1" type="xs:string" />
+                                        <xs:element name="weboldal" minOccurs="0" maxOccurs="1" type="xs:string" />
+                                        <xs:element name="kiadas" minOccurs="0" maxOccurs="1" type="xs:date" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="szerzo">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nev" minOccurs="0" maxOccurs="1" type="xs:string" />
+                                        <xs:element name="szerzodes" minOccurs="0" maxOccurs="1" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="azonosito" type="xs:int" />
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="isbn" type="isbn" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="azonosito" type="xs:int" />
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:simpleType name="isbn">
+        <xs:restriction base="xs:int">
+            <xs:pattern value="\d{10,10}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>    
