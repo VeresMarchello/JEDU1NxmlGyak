@@ -27,7 +27,7 @@ public class DOMRead
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newDefaultInstance();
 
 			DocumentBuilder builder = factory.newDocumentBuilder();
-			File xmlFile = new File("C:\\Users\\Marci\\OneDrive\\Egyetem\\V. félév\\XML\\Beadandó\\VM_XML.xml");
+			File xmlFile = new File("C:\\Users\\Marci\\OneDrive\\Egyetem\\V. félév\\XML\\XMLFeladat\\VM_XML.xml");
 			Document document = builder.parse(xmlFile);
 
 			Element rootNode = document.getDocumentElement();
